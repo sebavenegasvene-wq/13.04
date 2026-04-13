@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ejemplo HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header>nav>ul>li*4>a -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#s1">Inicio</a></li>
+                <li><a href="#ld">Lista desordenada</a></li>
+                <li><a href="#lo">Lista ordenada</a></li>
+                <li><a href="#la">Lista automática</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="s1">
+            <!-- h1 ==> para hacer un título, el mas importante 
+            existe hasta el h6 
+            -->
+            <h1 >Página de ejemplo</h1>
+            <!-- p  ==> etiqueta para definir un párrafo -->
+            <!-- lorem ==> genera texto demo rápidamente -->
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum eos quos debitis impedit ex ipsam a nostrum, ea non velit culpa blanditiis quia consectetur. Exercitationem molestias laborum eligendi sit vero.
+            </p>
+            <p>
+                <!-- lorem*10 ==> *10 genera el efecto por el multiplicador -->
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quod provident, quibusdam nesciunt minima hic impedit modi voluptates velit quaerat dolore expedita alias labore, dolorum, eos sapiente atque. Hic, placeat.
+                Nisi vel quae voluptate eum, corporis voluptates ab soluta enim et maxime, perferendis officiis quas rerum culpa nihil est aperiam corrupti expedita unde laborum? Ab fugiat nisi sed vero corrupti.
+                Velit eum corporis natus labore fugit, id exercitationem quo aliquid doloremque iste mollitia atque ducimus optio culpa. Dicta, corporis? Dicta quam omnis fuga architecto consequatur, voluptatum facere dolor earum alias.
+                Debitis numquam, necessitatibus eaque iste culpa optio id possimus et! Placeat maiores perspiciatis, iusto dicta error voluptatibus itaque vitae quaerat maxime nostrum animi excepturi architecto vel rem nihil. Maiores, iusto!
+                Praesentium iure error molestiae similique reiciendis tempore quia expedita! Esse atque voluptate ut pariatur iusto, quaerat, dignissimos natus optio ratione facere dolorum non, impedit error doloribus adipisci. Distinctio, consequatur officiis?
+                Consequuntur quis nihil eligendi ullam aliquam impedit cupiditate dolore eos! Libero neque error minus, cum sit asperiores voluptates, hic vero voluptate explicabo deleniti aliquam. Perferendis explicabo quasi modi fuga dolorum.
+                Ullam odit pariatur suscipit ad dolor? Assumenda, ducimus voluptates, iste velit iure ex voluptatum minima sint praesentium doloribus animi perferendis. A fuga pariatur explicabo harum aliquam laudantium quae obcaecati reiciendis.
+                Ut esse, exercitationem quod magni nostrum consequuntur quam illum illo a harum! Ipsa explicabo laboriosam quisquam quia cupiditate laborum excepturi? Dignissimos itaque, impedit voluptatem nostrum velit molestias accusantium aut omnis?
+                Aliquam dolorum accusantium id voluptate voluptatum commodi officia. Eligendi quisquam laborum doloribus ex, repudiandae atque error deleniti recusandae perferendis impedit, sed ipsa? Illo recusandae consequatur iure perferendis quos odio accusantium!
+                Dicta necessitatibus dolorem at error aspernatur eligendi quos, laboriosam magnam earum voluptas perferendis maiores fuga, magni impedit! Culpa doloremque deleniti modi id omnis fugit possimus nisi deserunt, facere natus sed!
+            </p>
+        </section>
+        <section>
+            <h2 id="ld">Lista desordenada</h2>
+            <!-- ul>li*4 > se utiliza para crear una etiqueta dentro de otra -->
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+            <!-- h2+ol>li*5 ==> + sirve para crear etiquetas al mismo nivel, 
+            una debajo de la otra -->
+            <h2 id="lo">Lista ordenada</h2>
+            <ol>
+                <li>Item uno</li>
+                <li>Item dos</li>
+                <li>Item tres</li>
+                <li>Item cuatro</li>
+                <li>Item cinco</li>
+            </ol>
+            <!-- h2{Lista automática}+ul>li*10{Elemento $}
+            {}  => se utilizan para agregar texto
+            $   => agrega un número desde 1 correlativo 
+            -->
+            <h2 id="la">Lista automática</h2>
+            <ul>
+                <li>Elemento 1/10</li>
+                <li>Elemento 2/10</li>
+                <li>Elemento 3/10</li>
+                <li>Elemento 4/10</li>
+                <li>Elemento 5/10</li>
+                <li>Elemento 6/10</li>
+                <li>Elemento 7/10</li>
+                <li>Elemento 8/10</li>
+                <li>Elemento 9/10</li>
+                <li>Elemento 10/10</li>
+            </ul>
+            <!-- h${Titulo $}*6 -->
+            <h1>Titulo 1</h1>
+            <h2>Titulo 2</h2>
+            <h3>Titulo 3</h3>
+            <h4>Titulo 4</h4>
+            <h5>Titulo 5</h5>
+            <h6>Titulo 6</h6>
+
+            <h2>Lista de enlaces</h2>
+            <ul>
+                <li><a href="https://www.biobiochile.cl" target="_blank">Ver noticias</a></li>
+                <li><a href="https://www.inacap.cl" target="_blank">Ver Inacap</a></li>
+                <li><a href="productos/yoshi.html" target="_blank">Ver Yoshi</a></li>
+                <li><a href="productos/toad.html" target="_blank">Ver Toad</a></li>
+            </ul>
+        </section>
+    </main>
+
+    
+    
+    
+</body>
+</html>
