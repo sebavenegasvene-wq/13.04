@@ -36,5 +36,21 @@ nav a{
     font-size: 20px;
 }
 nav a:hover{
-    color: rgb(216, 190, 240);
+    color: rgb(216, 190, 240);   
+}
+#s1{
+    margin-top: 50px;
+    background-image: url('../images/toad.png'),url('../images/toad.png'),url('../images/Yoshi.png'),url('../images/Yoshi.png');
+    background-position: top left,top right,bottom right,bottom left;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    padding: 75px;
+    box-shadow: 3px 3px 10px rgb(53, 0, 0), -3px -3px 10px rgb(70, 0, 0);
+}
+
+#p1{
+    text-shadow: 3px 3px 10px rgb(41, 0, 0);
+    font-size: 20px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
 }
